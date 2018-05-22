@@ -26,13 +26,17 @@ def join_string(string_1, string_2)
   return string_1 + string_2
 end
 
-def add_string_as_number (x,y)
+def add_string_as_number(x,y)
   return (x.to_i + y.to_i)
 end
 
-def number_to_full_month_name (x)
+def number_to_full_month_name(x)
   case
-when 1
-  p "January"
-endgit 
+ when 1
+  return "January"
+when 3
+  return "March"
+when 9
+  return "September"
+ end
 end
