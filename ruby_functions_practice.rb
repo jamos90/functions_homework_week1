@@ -55,9 +55,13 @@ case month
 end
 
 def fahrenheit_to_celsius(x)
-  return ((x*1.8)+32)
+  return ((x-32)/1.8)
   end
 
+def volume_of_cube(l)
+  return l**3
+end
+
 # def volume_of_sphere(y)
-#   return (4/3(3.14(y**3)))
+#   return (4/3(3.14(y**3)
 # end
