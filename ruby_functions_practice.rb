@@ -50,3 +50,7 @@ def number_to_short_month_name(y)
     return "Oct"
   end
 end
+
+def fahrenheit_to_celsius(x)
+  return ((x*1.8)+32)
+  end
