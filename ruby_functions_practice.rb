@@ -30,13 +30,23 @@ def add_string_as_number(x,y)
   return (x.to_i + y.to_i)
 end
 
-def number_to_full_month_name(x)
-  case
- when 1
+def number_to_full_month_name(num)
+if num ==1
   return "January"
-when 3
+elsif num == 3
   return "March"
-when 9
+elsif num == 9
   return "September"
- end
+end
+end
+
+
+def number_to_short_month_name(y)
+  if y == 1
+    return "Jan"
+  elsif y == 4
+    return "Apr"
+  elsif y == 10
+    return "Oct"
+  end
 end
