@@ -2,7 +2,7 @@ require( 'minitest/autorun' )
 require_relative( '../ruby_functions_practice' )
 
 class Functions_Practice < MiniTest::Test
-#
+
   def test_return_10()
     return_10_result = return_10()
     assert_equal( 10, return_10_result )
@@ -85,9 +85,10 @@ class Functions_Practice < MiniTest::Test
 #
 #   #Given the radius of a sphere calculate the volume
 #   def test_volume_of_sphere()
-#     #add test code here
+#     result = volume_of_sphere(3.1)
+#     assert_equal(113.1, result)
 #   end
-
+#
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
     fahrenheit_to_celsius = fahrenheit_to_celsius(32.0)
